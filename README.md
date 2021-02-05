@@ -2,3 +2,7 @@
 
 # revealadoc-play
 Playing with AsciiDoc version of Reveal JS.
+
+Initialized using:
+1.  npm init -y
+2.  npm i --save asciidoctor@^2.0 @asciidoctor/reveal.js

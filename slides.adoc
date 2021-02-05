@@ -1,0 +1,44 @@
+= Concealed Slide Titles 123
+:backend: revealjs
+:icons: font
+:docinfo: shared
+:revealjs_theme: solarized
+:revealjs_slideNumber: true
+
+== !
+
+This
+
+[%notitle]
+== Presentation
+
+presentation's titles
+
+[background-color="yellow"]
+== Concealed
+
+should be concealed
+
+[.columns]
+== Columns with size
+
+[.column.is-one-third]
+--
+* **Kotlin**
+* Java
+* Scala
+--
+
+[.column]
+--
+Programming language for Android, mobile cross-platform
+and web development, server-side, native,
+and data science. Open source forever Github.
+--
+
+
+== But first
+
+WARNING: This presentation is dangerous!
+
+
