@@ -1,9 +1,21 @@
-= Concealed Slide Titles 123
+// .admonitions-font
+// :include: //div[@class="slides"]
+// :header_footer:
+
 :backend: revealjs
 :icons: font
 :docinfo: shared
-:revealjs_theme: solarized
+//:revealjs_theme: solarized
 :revealjs_slideNumber: true
+:source-highlighter: highlightjs
+:highlightjs-languages: asciidoc
+:highlightjs-theme: a11y-dark.css
+:customcss: release-4.1.css
+:revealjs_hash: true
+:revealjs_width: 1080
+
+
+= Concealed Slide Titles 123
 
 == !
 
@@ -13,6 +25,58 @@ This
 == Presentation
 
 presentation's titles
+
+[source, asciidoc]
+----
+== Atom podium
+
+[data-medal=gold]
+. Protons
+
+[data-medal=silver]
+. Electrons
+
+[data-medal=bronze]
+. Neutrons
+----
+
+
+
+== Tweet
+
+// placeholder
+[#tweet]
+--
+--
+
+
+
+[%notitle]
+=== Press Release
+
+The hail-and-rainbow protocol can be initiated at three levels:
+
+. doublefootnote:[The double hail-and-rainbow level makes my toes tingle.]
+. tertiary
+. supermassively
+
+A bold statement!footnote:disclaimer[Opinions are my own.]
+
+Another outrageous statement.footnote:disclaimer[]
+
+
+
+== Font Awesome icon:font-awesome-flag[set=fab]
+
+* Version 5.13.0
+* Support icon sets (using `set` attribute)
+** *Brand:* icon:firefox[set=fab]
+** *Solid*: icon:address-book[set=fas]
+** *Regular*: icon:address-book[set=far]
+* `font-awesome-version` attribute
+
+
+
 
 [background-color="yellow"]
 == Concealed
@@ -29,8 +93,9 @@ should be concealed
 * Scala
 --
 
-[.column]
+[.column,.text-left]
 --
+[.text-align-attr]`[.text-left]` +
 Programming language for Android, mobile cross-platform
 and web development, server-side, native,
 and data science. Open source forever Github.
@@ -42,3 +107,91 @@ and data science. Open source forever Github.
 WARNING: This presentation is dangerous!
 
 
+[.lead]
+Hello this should be
+
+larget than this.
+
+== Next is This
+
+[IMPORTANT]
+.Feeding the Werewolves
+====
+While werewolves are hardy community members, keep in mind the following dietary concerns:
+
+. They are allergic to cinnamon.
+. More than two glasses of orange juice in 24 hours makes them howl in harmony with alarms and sirens.
+. Celery makes them sad.
+====
+
+== And another
+
+[TIP, caption='ProTip(TM)']
+.Reveal.JS
+====
+Use include blocks to split your talks into small sections.
+It's easier to reorganize afterwards.
+====
+
+
+
+[.columns]
+== Columns with size
+
+[.column.is-one-third]
+--
+* **Kotlin**
+* Java
+* Scala
+--
+
+[.column,align="left"]
+--
+```javascript
+var asdf = 123.0f;
+```
+
+Python:
+[source, python]
+----
+print "Hello World"
+----
+
+--
+
+
+== !
+
+icon:heart[2x]
+
+== !
+
+icon:heart[size=5x]
+
+== !
+
+[.red]
+icon:heart[size=5x]
+
+== !
+
+icon:stackpath[size=5x,set=fab]
+
+== !
+
+icon:twitter[size=5x]
+
+== Added in 5.15.0
+
+icon:vest[size=2x]
+
+== Sets
+
+.Brand
+icon:creative-commons[size=2x,set=fab]
+
+.Regular
+icon:address-book[size=2x,set=far]
+
+.Solid
+icon:address-book[size=2x,set=fas]

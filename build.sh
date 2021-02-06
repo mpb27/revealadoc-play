@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npx asciidoctor-revealjs slides.adoc --destination-dir ./build
+npx asciidoctor-revealjs slides.adoc
