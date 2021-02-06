@@ -6,3 +6,6 @@ Playing with AsciiDoc version of Reveal JS.
 Initialized using:
 1.  npm init -y
 2.  npm i --save asciidoctor@^2.0 @asciidoctor/reveal.js
+3.  npm i --save @asciidoctor/core asciidoctor-pdf
+4.  npm i --save puppeteer
+
