@@ -48,3 +48,38 @@
   color: #f5ab35;
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
+
+
+.reveal .slides {
+  font-size: 1.5rem;
+}
+
+
+
+.admonitionblock table{
+    margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin: auto; 
+	line-height: 1;
+	border-collapse: collapse;
+	font-size: 1.5rem;
+}
+.admonitionblock td {
+    text-align: left;
+    font-size:36px;
+}
+
+.admonitionblock td.icon{
+	width:120px;
+    text-align: center;
+    color:#19407c;
+}
+
+.admonitionblock table td.content{
+	padding-left:1.125em;
+	padding-right:1.25em;
+	border-left:1px solid #dddddf;
+	color:rgba(49, 221, 15, 0.6);
+}
+
