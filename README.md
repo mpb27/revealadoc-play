@@ -8,4 +8,4 @@ Initialized using:
 2.  npm i --save asciidoctor@^2.0 @asciidoctor/reveal.js
 3.  npm i --save @asciidoctor/core asciidoctor-pdf
 4.  npm i --save puppeteer
-
+5.  npm i --save asciidoctor-kroki

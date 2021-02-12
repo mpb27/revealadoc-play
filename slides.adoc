@@ -2,10 +2,18 @@
 // :include: //div[@class="slides"]
 // :header_footer:
 
+//
+// https://docs.asciidoctor.org/reveal.js-converter/latest/converter/syntax/layout/
+//
+//
+//
+
+
 :backend: revealjs
 :icons: font
 :docinfo: shared
 //:revealjs_theme: solarized
+//:revealjs_theme: moon
 :revealjs_slideNumber: true
 :source-highlighter: highlightjs
 :highlightjs-languages: asciidoc
@@ -39,6 +47,30 @@ presentation's titles
 [data-medal=bronze]
 . Neutrons
 ----
+
+
+//
+// Slide 2 : How to create a 
+//
+== Hello
+
+[mermaid,abcd-flowchart,svg]
+....
+graph TD
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+....
+
+
+//
+// Slide 3: Quote Albert to make point.
+//
+== Quotes
+
+[quote, Albert Einstein]
+A person who never made a mistake never tried anything new.
 
 
 
@@ -118,7 +150,7 @@ A,B,C,D
 
 
 
-
+[%notitle]
 == But first second
 
 .Multiline cells, row/col span
