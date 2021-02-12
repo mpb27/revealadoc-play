@@ -276,3 +276,27 @@ icon:address-book[size=2x,set=far]
 
 .Solid
 icon:address-book[size=2x,set=fas]
+
+
+[.half.left.green]
+== !
+
+[.is-half.left.has-dark-background]
+--
+Some authors
+
+[circle]
+- Edgar Allen Poe
+- Sheri S. Tepper
+- Bill Bryson
+--
+
+[.is-half.right]
+--
+A normal paragraph.
+Line breaks are not preserved.
+// line comments, which are lines that start with //, are skipped
+
+A blank line separates paragraphs.
+--
+
